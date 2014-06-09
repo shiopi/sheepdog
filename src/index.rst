@@ -58,7 +58,6 @@ RPM Packages
 
 + The latest 0.8.x release is `0.8.1 <https://sheepdog.github.com/sheepdog/yum/rhel/6/stable-v0.8/x86_64/zookeeper-lib-3.4.5-1.x86_64.rpm>`
 
-
 Mailing list and IRC
 --------------------
 
