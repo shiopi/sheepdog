@@ -52,6 +52,13 @@ Sheepdog is an Open Source software, released under the terms of the
   + client: git://git.qemu.org/qemu.git
     [`browse <http://git.qemu.org/qemu.git>`__]
 
+RPM Package
+-----------
+RPM Packages
+
++ The latest 0.8.x release is `0.8.1 <https://sheepdog.github.com/sheepdog/yum/rhel/6/stable-v0.8/x86_64/zookeeper-lib-3.4.5-1.x86_64.rpm>`
+
+
 Mailing list and IRC
 --------------------
 
