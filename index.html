@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sheepdog Project &mdash; Sheepdog Project</title>
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '#',
+        VERSION:     '',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/sheepdog.ico"/>
+    <link rel="top" title="Sheepdog Project" href="#" /> 
+  </head>
+  <body>
+    <div id="wrapper">
+    <div class="header">
+      <div class="title"><a href="#">Sheepdog</a></div></div>
+
+    <div class="related">
+      <ul>
+	<li><a href="#">Top</a>
+	</li>
+      </ul>
+      <ul class="simple">
+</ul>
+
+    </div>
+
+    <div class="document">
+      <div class="sidebar">&nbsp;
+            <h3>Table Of Contents</h3>
+            <ul>
+<li><a class="reference internal" href="#">Sheepdog Project</a><ul>
+<li><a class="reference internal" href="#documentations">Documentations</a><ul>
+</ul>
+</li>
+<li><a class="reference internal" href="#source-code">Source Code</a></li>
+<li><a class="reference internal" href="#mailing-list-and-irc">Mailing list and IRC</a></li>
+</ul>
+</li>
+</ul>
+
+          <div id="searchbox">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 80%; white-space: normal;">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sheepdog-project">
+<h1>Sheepdog Project<a class="headerlink" href="#sheepdog-project" title="Permalink to this headline">¶</a></h1>
+<p>Sheepdog is a distributed object storage system for volume and container
+services and manages the disks and nodes intelligently. Sheepdog features
+ease of use, simplicity of code and can scale out to thousands of nodes.</p>
+<ul class="simple">
+<li>The block level volume abstraction can be attached to
+<a class="reference external" href="http://www.qemu.org/">QEMU</a> virtual machines and
+<a class="reference external" href="http://stgt.sourceforge.net/">Linux SCSI Target</a> and supports
+advanced volume management features such as snapshot, cloning, and
+thin provisioning.</li>
+<li>The object level container abstraction is designed to be
+<a class="reference external" href="https://wiki.openstack.org/wiki/Swift">Openstack Swift</a> and
+<a class="reference external" href="http://aws.amazon.com/s3/">Amazon S3</a> API compatible and can be used to
+store and retrieve any amount of data with a simple web services
+interface.</li>
+</ul>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="_images/overview.png"><img alt="figure of sheepdog overview" src="_images/overview.png" style="width: 592.8px; height: 356.8px;" /></a>
+</div>
+<div class="section" id="documentations">
+<h2>Documentations<a class="headerlink" href="#documentations" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+<ul class="simple">
+<li>Wiki<ul>
+<li><a class="reference external" href="https://github.com/sheepdog/sheepdog/wiki">https://github.com/sheepdog/sheepdog/wiki</a></li>
+</ul>
+</li>
+</ul>
+<ul class="simple">
+<li>Presentations<ul>
+<li>Sheepdog: Yet Another All-In-One Storage For Openstack, Openstack Hong Kong Summit, Nov 2013. (<a class="reference external" href="_static/sheepdog-openstack.pdf">Slides</a>)</li>
+<li>Sheepdog: Distributed Storage System for QEMU, KVM Forum 2010, Aug 2010. (<a class="reference external" href="_static/kvmforum2010.pdf">Slides</a>)</li>
+<li>Sheepdog: Distributed Storage System for QEMU/KVM, LCA 2010 DS&amp;R miniconf, Jan 2010. (<a class="reference external" href="_static/lca2010_miniconf.pdf">Slides</a>)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="source-code">
+<h2>Source Code<a class="headerlink" href="#source-code" title="Permalink to this headline">¶</a></h2>
+<p>Sheepdog is an Open Source software, released under the terms of the
+<a class="reference external" href="./_static/LICENSE.txt">GPL2</a>.</p>
+<ul class="simple">
+<li>The latest 0.8.x release is <a class="reference external" href="https://github.com/sheepdog/sheepdog/tarball/v0.8.1">0.8.1</a></li>
+<li>The latest 0.7.x release is <a class="reference external" href="https://github.com/sheepdog/sheepdog/tarball/v0.7.8">0.7.8</a></li>
+<li>The latest developent code is available on the git tree<ul>
+<li>server: git://github.com/sheepdog/sheepdog.git
+[<a class="reference external" href="https://github.com/sheepdog/sheepdog">browse</a>]</li>
+<li>client: git://git.qemu.org/qemu.git
+[<a class="reference external" href="http://git.qemu.org/qemu.git">browse</a>]</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="mailing-list-and-irc">
+<h2>Mailing list and IRC<a class="headerlink" href="#mailing-list-and-irc" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Developers Mailing list<ul>
+<li>Subscribe: <a class="reference external" href="http://lists.wpkg.org/mailman/listinfo/sheepdog">http://lists.wpkg.org/mailman/listinfo/sheepdog</a></li>
+<li>Archive:  <a class="reference external" href="http://lists.wpkg.org/pipermail/sheepdog/">http://lists.wpkg.org/pipermail/sheepdog/</a></li>
+</ul>
+</li>
+<li>Users Mailing list<ul>
+<li>Subscribe: <a class="reference external" href="http://lists.wpkg.org/mailman/listinfo/sheepdog-users">http://lists.wpkg.org/mailman/listinfo/sheepdog-users</a></li>
+<li>Archive:  <a class="reference external" href="http://lists.wpkg.org/pipermail/sheepdog-users/">http://lists.wpkg.org/pipermail/sheepdog-users/</a></li>
+</ul>
+</li>
+<li>IRC<ul>
+<li>#sheepdog on <a class="reference external" href="http://webchat.freenode.net/">freenode</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+    <div class="copyright">
+      &copy; Copyright 2009 - 2014, Nippon Telegraph and Telephone Corporation.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
